@@ -17,17 +17,17 @@ class Expendedor {
         monVu = new DepositoM();
         precio = precioProductos;
 
-        for (int i = 0; i < numProductos; i++) {
+        for (int i = 0; i < numProductos; i+1) {
             Producto cc = new CocaCola(100 + i);
             coca.addProducto(cc);
 
             Producto sp = new Sprite(200 + i);
             sprite.addProducto(sp);
 
-            Producto s8 = new Super8( 250 + i);
+            Producto s8 = new Super8( 300 + i);
             super8.addProducto(s8);
 
-            Producto rt = new Rallita( 300 * i);
+            Producto rt = new Rallita( 400 + i);
             rallita.addProducto(rt);
         }
     }
