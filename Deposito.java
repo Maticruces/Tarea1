@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 class Deposito{
-    private ArrayList<Prodcuto> al;
+    private ArrayList<Producto> al;
     public Deposito(){ al = new ArrayList<>(); }
     public void addProducto(Producto b){ al.add(b); }
     public Producto getProducto(){
